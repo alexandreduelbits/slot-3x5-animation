@@ -45,22 +45,18 @@ body {
   }
 }
 
-#slot2,
-#slot4 {
-  border-left: 1px solid #c3c3c3;
-  border-right: 1px solid #c3c3c3;
-}
-
 .slot {
   display: flex;
   flex-direction: column;
   flex: 1;
+  border-left: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
 }
 
 .slot-item {
   display: flex;
   align-items: center;
-  width: 90px;
+  width: 100%;
   height: 90px;
   font-size: 4rem;
   justify-content: center;
